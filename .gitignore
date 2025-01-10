@@ -1,0 +1,21 @@
+# Ignorar arquivos binários ou de compilação
+*.exe
+*.dll
+*.o
+*.so
+
+# Ignorar arquivos de logs
+*.log
+
+# Ignorar pastas de build e dependências
+node_modules/
+dist/
+build/
+
+# Ignorar arquivos de configuração local
+.env
+*.config
+
+# Ignorar cache do sistema operacional
+.DS_Store
+Thumbs.db
